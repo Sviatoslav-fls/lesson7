@@ -1,0 +1,484 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+	font-family: Gilroy;
+}
+/* ------------------------------------------------------------------------------------------------------ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------------------------------------------------ */
+body {
+}
+.travel {
+	padding: 168px 0px 137px 0px;
+	background: #e8e8e8 url("../img/travel/Ellipse.png") center 140px no-repeat;
+	margin: 0px auto;
+}
+.container {
+	max-width: 841px;
+	margin: 0px auto;
+}
+.tpaveltop {
+}
+.travelheading {
+	font-family: "Arial MT";
+	opacity: 0.6;
+	color: #273d46;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	text-align: center;
+	margin: 0px 0px 28px 0px;
+}
+.traveltitle {
+	font-family: "Times New Roman PSMT";
+	color: #273d46;
+	font-size: 36px;
+	line-height: 50px;
+	text-align: center;
+	padding: 0px 55px;
+	margin: 0px 0px 77px 0px;
+}
+.travelimage {
+	background-color: #fff;
+	padding: 12px;
+	margin: 0px 0px 97px 0px;
+}
+.travelimage img {
+	max-width: 100%;
+}
+.taveltext {
+	font-family: "Times New Roman PSMT";
+	opacity: 0.8;
+	color: #273d46;
+	font-size: 24px;
+	line-height: 40px;
+	margin: 0px 0px 64px 0px;
+	padding: 0px 45px;
+}
+.taveltext p {
+	margin: 0px 0px 57px 0px;
+}
+.travelbottom {
+}
+.travellist {
+	font-family: "Arial MT";
+	line-height: 36px;
+	font-size: 20px;
+	margin: 0px 0px 59px 0px;
+}
+.travellist li {
+	background: url("../img/travel/check_icon.png") left 7px no-repeat;
+	padding: 0px 0px 0px 36px;
+	min-height: 19px;
+}
+
+.normal {
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	color: #273d46;
+}
+.color {
+	color: #80b7b3;
+}
+.weight {
+	color: #273d46;
+	font-weight: bold;
+}
+.decorate span {
+	opacity: 0.3;
+	color: #273d46;
+	text-decoration: line-through;
+}
+.travelbutton {
+	display: inline-block;
+	line-height: 40px;
+	background-color: #80b7b3;
+	box-shadow: 0 5px 1px #023531b9;
+
+	padding: 0px 30px;
+	border-radius: 30px;
+}
+.travelbutton span {
+	font-family: "Arial MT";
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	background: url("../img/travel/arrow.svg") right 2px no-repeat;
+	padding-right: 32px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------- */
+.space {
+	min-height: 200px;
+	background: url("../img/sea.jpg") center 0 / 100% auto no-repeat fixed;
+}
+/* ------------------------------------------------------------------------------------------------------------------------- */
+.wrapper2 {
+}
+.worker {
+	background-color: #fafafb;
+
+	background: url("../img/worker/worker.png") 70% bottom no-repeat,
+		url("../img/worker/bg.png") right bottom / 50% 100% no-repeat;
+	height: 720px;
+	padding: 31px 0px 175px 0px;
+}
+.container2 {
+	max-width: 1140px;
+	margin: 0px auto;
+}
+.workerheader {
+}
+.headertop {
+	margin: 0px 0px 45px 0px;
+}
+.toplogo {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 52px;
+	color: #e1e1e1;
+	margin: 0px 30px 0px 0px;
+	vertical-align: text-bottom;
+}
+.topdescr {
+	display: inline-block;
+	max-width: 190px;
+	color: #5d5d5d;
+	font-size: 14px;
+	font-weight: 500;
+	border-left: 2px solid #89afef;
+	padding: 0px 0px 0px 27px;
+	margin: 0px 75px 0px 0px;
+}
+.topsocial {
+	display: inline-block;
+}
+.topwhatsapp {
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	box-shadow: 0 8px 25px rgba(45, 208, 56, 0.5);
+	background: #2dd038 url("../img/worker/icons/WhatsApp.svg") 50% 50% no-repeat;
+	border-radius: 50%;
+	line-height: 43px;
+	margin: 0px 20px 0px 0px;
+}
+.topviber {
+	display: inline-block;
+	border-radius: 50%;
+	width: 43px;
+	height: 43px;
+	box-shadow: 0 8px 25px rgba(123, 81, 157, 0.5);
+	background: #7b519d url("../img/worker/icons/viber.svg") 50% 50% no-repeat;
+	margin: 0px 20px 0px 0px;
+}
+.toptelegram {
+	display: inline-block;
+	border-radius: 50%;
+	width: 43px;
+	height: 43px;
+	box-shadow: 0 8px 25px rgba(91, 186, 240, 0.5);
+	background: #5bbaf0 url("../img/worker/icons/telegram.svg") 50% 50% no-repeat;
+	margin: 0px 75px 0px 0px;
+}
+.topactions {
+	display: inline-block;
+	max-width: 195px;
+	margin: 0px 50px 0px 0px;
+}
+.topactions span {
+	margin: 0px 0px 0px 28px;
+}
+
+.topphone {
+	color: #333333;
+	font-size: 20px;
+	font-weight: 700;
+	background: url("../img/worker/icons/phone.svg") left 3px no-repeat;
+	padding: 0px 0px 0px 27px;
+	line-height: 35px;
+	height: 16px;
+}
+.email {
+	color: #333333;
+	font-size: 17px;
+	font-weight: 500;
+	background: url("../img/worker/icons/email.svg") left 5px no-repeat;
+	padding: 0px 0px 0px 40px;
+	height: 12px;
+}
+.topbtn {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 600;
+	box-shadow: 0 8px 18px rgba(242, 147, 81, 0.45);
+	border-radius: 3px;
+	background: linear-gradient(90deg, #f6bd60 0%, #e88952 100%);
+	padding: 0px 28px;
+	line-height: 50px;
+	display: inline-block;
+	vertical-align: text-bottom;
+}
+.headerbottom {
+}
+.headermenu {
+	margin: 0px 0px 96px 0px;
+}
+.menulist li {
+	display: inline-block;
+}
+.menulist a {
+	color: #333333;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.menulink {
+	display: inline-block;
+	margin: 0px 53px 0px 0px;
+}
+
+.workertitle {
+	color: #333333;
+	font-size: 40px;
+	font-weight: 900;
+	line-height: 51px;
+	max-width: 670px;
+	margin: 0px 0px 60px 0px;
+}
+.workersubtitle {
+	font-size: 24px;
+	font-weight: 500;
+	margin: 0px 0px 35px 0px;
+}
+.workersubtitle span {
+	font-weight: 800;
+}
+.workerbutton {
+	display: inline-block;
+	background: linear-gradient(90deg, #87aff1 0%, #6c80cb 100%, #6c80cb 100%);
+	padding: 0px 65px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 50px;
+	border-radius: 3px;
+	box-shadow: 0 12px 20px rgba(132, 170, 237, 0.45);
+}
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+.certification {
+	margin: 0px 0px 70px 0px;
+}
+.container2 {
+}
+.header {
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+	background-color: #f6f6f6;
+	max-height: 181px;
+	padding: 25px 0px 25px 0px;
+}
+.toplogocert {
+	color: #e1e1e1;
+	font-size: 60px;
+	font-weight: 700;
+	margin: 0px 30px 0px 0px;
+	vertical-align: text-bottom;
+}
+.crumbs {
+	font-size: 15px;
+	font-weight: 500;
+	padding: 25px 0px 30px 0px;
+}
+.crumbs a {
+	color: #86afef;
+	text-decoration: underline;
+}
+.crumbs span {
+	color: #7d7d7d;
+}
+.certificationblock {
+	min-height: 376px;
+	background: url("../img/certification/Sertificat.png") right center no-repeat,
+		url("../img/certification/Group4.png") right 0 no-repeat;
+	color: #333333;
+	background-color: #fafafb;
+	margin: 0px 0px 35px 0px;
+}
+.blockleft {
+	display: inline-block;
+	max-width: 190px;
+	text-align: center;
+	margin: 0px 75px 0px 40px;
+	padding: 38px 0px 50px 0px;
+}
+.blockleft p {
+	color: #333333;
+	font-size: 15px;
+	font-weight: 500;
+	margin: 0px 0px 12px 0px;
+}
+p.registration {
+	margin: 0px 0px 20px 0px;
+}
+p.group {
+	margin: 0px 0px 8px 0px;
+}
+p.grouplast {
+	margin: 0px 0px 27px 0px;
+}
+.blockleft span {
+	font-weight: 700;
+}
+span.price {
+	color: #87b0ee;
+	font-size: 36px;
+	font-weight: 800;
+	border-bottom: 2px solid #87b0ee;
+	padding: 0px 0px 13px 0px;
+	margin: 0px 0px 25px 0px;
+	display: inline-block;
+}
+.blockleftbtn {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	box-shadow: 0 12px 20px rgba(132, 170, 237, 0.45);
+	border-radius: 3px;
+	background: linear-gradient(90deg, #87aff1 0%, #6c80cb 100%);
+	padding: 0px 52px;
+	line-height: 50px;
+}
+.blockright {
+	display: inline-block;
+	max-width: 480px;
+}
+.certificationtitle {
+	font-size: 40px;
+	font-weight: 800;
+	margin: 0px 0px 30px 0px;
+}
+.certificationtext {
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 26px;
+}
+.certificationadd {
+	visibility: hidden;
+}
+.certificationbody {
+}
+.certificationbody p {
+	color: #333333;
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0px 0px 35px 0px;
+}
+.certificationbody h2 {
+	color: #333333;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0px 0px 20px 0px;
+}
+p.descr {
+	margin: 0px 0px 25px 0px;
+}
+.certitems {
+}
+.itemstitle {
+	color: #333333;
+	font-size: 19px;
+	font-weight: 700;
+	margin: 0px 0px 20px 0px;
+}
+.certlist li {
+	color: #333333;
+	font-size: 18px;
+	margin: 0px 0px 15px 0px;
+}
+.itemring {
+	display: inline-block;
+	border: 1px solid #87b0ee;
+	box-shadow: inset 0 9px #87b0ee;
+	border-radius: 50%;
+	width: 9px;
+	height: 9px;
+	margin: 0px 14px 0px 50px;
+}
