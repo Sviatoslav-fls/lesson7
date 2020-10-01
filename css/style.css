@@ -135,6 +135,7 @@ body {
 	margin: 0px 0px 57px 0px;
 }
 .travelbottom {
+	padding: 0px 45px;
 }
 .travellist {
 	font-family: "Arial MT";
@@ -169,9 +170,9 @@ body {
 	line-height: 40px;
 	background-color: #80b7b3;
 	box-shadow: 0 5px 1px #023531b9;
-
 	padding: 0px 30px;
 	border-radius: 30px;
+	margin: 0px 0px 0px 45px;
 }
 .travelbutton span {
 	font-family: "Arial MT";
