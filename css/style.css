@@ -191,7 +191,6 @@ body {
 }
 .worker {
 	background-color: #fafafb;
-
 	background: url("../img/worker/worker.png") 70% bottom no-repeat,
 		url("../img/worker/bg.png") right bottom / 50% 100% no-repeat;
 	height: 720px;
@@ -374,7 +373,7 @@ body {
 }
 .certificationblock {
 	min-height: 376px;
-	background: url("../img/certification/Sertificat.png") right center no-repeat,
+	background: url("../img/certification/Sertificat.png") right 30% no-repeat,
 		url("../img/certification/Group4.png") right 0 no-repeat;
 	color: #333333;
 	background-color: #fafafb;
@@ -429,6 +428,8 @@ span.price {
 .blockright {
 	display: inline-block;
 	max-width: 480px;
+	vertical-align: top;
+	margin: 80px 0px 0px 0px;
 }
 .certificationtitle {
 	font-size: 40px;
@@ -439,9 +440,6 @@ span.price {
 	font-size: 17px;
 	font-weight: 500;
 	line-height: 26px;
-}
-.certificationadd {
-	visibility: hidden;
 }
 .certificationbody {
 }
