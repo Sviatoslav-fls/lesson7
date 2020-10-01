@@ -185,16 +185,15 @@ body {
 /* ------------------------------------------------------------------------------------------------------------------------- */
 .space {
 	min-height: 200px;
-	background: url("../img/sea.jpg") center 0 / 100% auto no-repeat fixed;
+	background: url("../img/sea.jpg") center no-repeat fixed;
 }
 /* ------------------------------------------------------------------------------------------------------------------------- */
 .wrapper2 {
 }
 .worker {
-	background-color: #fafafb;
-	background: url("../img/worker/worker.png") 70% bottom no-repeat,
-		url("../img/worker/bg.png") right bottom / 50% 100% no-repeat;
 	height: 720px;
+	background: url("../img/worker/worker.png") 70% bottom no-repeat,
+		url("../img/worker/bg.png") right bottom / 50% 100% no-repeat #fafafb;
 	padding: 31px 0px 175px 0px;
 }
 .container2 {
@@ -232,7 +231,7 @@ body {
 	width: 43px;
 	height: 43px;
 	box-shadow: 0 8px 25px rgba(45, 208, 56, 0.5);
-	background: #2dd038 url("../img/worker/icons/WhatsApp.svg") 50% 50% no-repeat;
+	background: #2dd038 url("../img/worker/icons/WhatsApp.svg") 50% no-repeat;
 	border-radius: 50%;
 	line-height: 43px;
 	margin: 0px 20px 0px 0px;
@@ -243,7 +242,7 @@ body {
 	width: 43px;
 	height: 43px;
 	box-shadow: 0 8px 25px rgba(123, 81, 157, 0.5);
-	background: #7b519d url("../img/worker/icons/viber.svg") 50% 50% no-repeat;
+	background: #7b519d url("../img/worker/icons/viber.svg") 50% no-repeat;
 	margin: 0px 20px 0px 0px;
 }
 .toptelegram {
@@ -252,7 +251,7 @@ body {
 	width: 43px;
 	height: 43px;
 	box-shadow: 0 8px 25px rgba(91, 186, 240, 0.5);
-	background: #5bbaf0 url("../img/worker/icons/telegram.svg") 50% 50% no-repeat;
+	background: #5bbaf0 url("../img/worker/icons/telegram.svg") 50% no-repeat;
 	margin: 0px 75px 0px 0px;
 }
 .topactions {
@@ -375,9 +374,8 @@ body {
 .certificationblock {
 	min-height: 376px;
 	background: url("../img/certification/Sertificat.png") right 30% no-repeat,
-		url("../img/certification/Group4.png") right 0 no-repeat;
+		url("../img/certification/Group4.png") right no-repeat #fafafb;
 	color: #333333;
-	background-color: #fafafb;
 	margin: 0px 0px 35px 0px;
 }
 .blockleft {
